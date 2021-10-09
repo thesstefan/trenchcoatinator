@@ -26,6 +26,7 @@ SOURCES +=  src/main.cpp \
             src/service_command.cpp \
             src/gui/cart_model.cpp \
             src/gui/image_delegate.cpp \
+            src/master_console_ui.cpp
 
 HEADERS +=  src/exceptions.h \
             src/trenchcoat.h \
@@ -56,9 +57,10 @@ HEADERS +=  src/exceptions.h \
             src/service_command.h \
             src/gui/cart_model.h \
             src/gui/image_delegate.h \
+            src/master_console_ui.h
 
 OBJECTS_DIR = build
 MOC_DIR = build
 RCC_DIR = data
 
-TARGET = oop
+TARGET = trenchcoat 

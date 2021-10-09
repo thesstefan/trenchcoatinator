@@ -1,8 +1,8 @@
-#include "gui/graphical_ui.h"
+#include "master_console_ui.h"
 
 int main(int argc, char **argv) {
-    GraphicalUI ui(argc, argv);
-    ui.run();
+    MasterConsoleUI ui;
+    ui.run(argc, argv);
 
     return 0;
 }
