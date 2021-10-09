@@ -25,7 +25,7 @@ The design patterns make complicated things look easy. Factories help with the p
 initialization, commands encapsulate operations and allow for better control (e.g. operation undo/redo), while the Model-View-Controller (used in the whole app, and more specifically in the database's table view+model+delegate implementation) brings everything together.
 
 A part of the project's architecture can be seen in the UML diagram for a simplified text 
-based UI app version at [`docs/Trenchcoatinator.svg`](https://github.com/thesstefan/trenchcoatinator/master/docs/Trenchcoatinator.svg').
+based UI app version at [`docs/Trenchcoatinator.svg`](https://github.com/thesstefan/trenchcoatinator/master/docs/Trenchcoatinator.svg).
 
 # Installation and Usage
 The project assumes that Qt5 and a compiler supporting C++20 is installed. If this is satisfied,
